@@ -4,7 +4,7 @@
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
-  "name": "iso-format",
+  "name": "dayjs-momentjs-format-string-library",
   "description": "saving commonly used iso8601 format string and pass in the semantic key to get the corresponding format.",
   "version": "1.0.0",
   "main": "index.js",
