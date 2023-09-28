@@ -40,7 +40,8 @@
   },
   "scripts": {
     "build": "tsup",
-    "publish": "npx np"
+    "publish": "npx np",
+    "test": "echo \"No test specified\""
   },
   "version": "1.0.5"
 }
