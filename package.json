@@ -21,7 +21,8 @@
     "kazoottt"
   ],
   "license": "ISC",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "name": "dayjs-momentjs-format-string-library",
   "repository": {
     "access": "public",
