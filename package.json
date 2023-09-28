@@ -36,7 +36,8 @@
     "url": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library.git"
   },
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "publish": "npx np"
   },
   "version": "1.0.5"
 }
