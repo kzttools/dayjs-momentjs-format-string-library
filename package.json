@@ -43,5 +43,5 @@
     "publish": "npx np",
     "test": "echo \"No test specified\""
   },
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
