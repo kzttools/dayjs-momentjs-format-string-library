@@ -1,17 +1,25 @@
 {
+  "author": "kazoottt",
+  "description": "saving commonly used iso8601 format string and pass in the semantic key to get the corresponding format.",
   "devDependencies": {
     "prettier": "^3.0.3",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
-  "name": "dayjs-momentjs-format-string-library",
-  "description": "saving commonly used iso8601 format string and pass in the semantic key to get the corresponding format.",
-  "version": "1.0.0",
+  "homepage": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library",
+  "keywords": [
+    "dayjs",
+    "momentjs",
+    "format",
+    "string",
+    "library",
+    "kazoottt"
+  ],
+  "license": "ISC",
   "main": "index.js",
+  "name": "dayjs-momentjs-format-string-library",
   "scripts": {
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "version": "1.0.0"
 }
