@@ -6,6 +6,11 @@
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
+  "files": [
+    "/dist",
+    "LICSENSE",
+    "README.md"
+  ],
   "homepage": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library",
   "keywords": [
     "dayjs",
@@ -18,13 +23,12 @@
   "license": "ISC",
   "main": "index.js",
   "name": "dayjs-momentjs-format-string-library",
+  "repository": {
+    "access": "public",
+    "url": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library.git"
+  },
   "scripts": {
     "build": "tsup"
   },
-  "version": "1.0.1",
-  "files": [
-    "/dist",
-    "LICSENSE",
-    "README.md"
-  ]
+  "version": "1.0.1"
 }
