@@ -33,15 +33,18 @@
   "license": "ISC",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "name": "dayjs-momentjs-format-string-library",
+  "name": "@kzttools/dayjs-momentjs-format-string-library",
   "repository": {
     "access": "public",
     "url": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "build": "tsup",
     "publish": "npx np",
     "test": "echo \"No test specified\""
   },
-  "version": "1.0.7"
+  "version": "1.0.8"
 }
