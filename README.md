@@ -31,12 +31,12 @@ saving commonly used iso8601 format string and pass in the semantic key to get t
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/dayjs-momentjs-format-string-library?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/dayjs-momentjs-format-string-library
-[npm-downloads-src]: https://img.shields.io/npm/dm/dayjs-momentjs-format-string-library?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/dayjs-momentjs-format-string-library
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/dayjs-momentjs-format-string-library?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=dayjs-momentjs-format-string-library
+[npm-version-src]: https://img.shields.io/npm/v/@kzttools/dayjs-momentjs-format-string-library?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/@kzttools/dayjs-momentjs-format-string-library
+[npm-downloads-src]: https://img.shields.io/npm/dm/@kzttools/dayjs-momentjs-format-string-library?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/@kzttools/dayjs-momentjs-format-string-library
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/@kzttools/dayjs-momentjs-format-string-library?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=@kzttools/dayjs-momentjs-format-string-library
 [license-src]: https://img.shields.io/github/license/kzttools/dayjs-momentjs-format-string-library.svg?style=flat&colorA=080f12&colorB=1fa669
 [license-href]: https://github.com/kzttools/dayjs-momentjs-format-string-library/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
