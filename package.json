@@ -1,50 +1,76 @@
 {
-  "author": "kazoottt",
+  "name": "dayjs-momentjs-format-string-library",
+  "type": "module",
+  "version": "1.0.12",
+  "packageManager": "pnpm@8.14.0",
   "description": "saving commonly used iso8601 format string and pass in the semantic key to get the corresponding format.",
-  "devDependencies": {
-    "prettier": "^3.0.3",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
-  },
-  "engines": {
-    "node": ">=12.0.0"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
-  "files": [
-    "/dist",
-    "LICSENSE",
-    "README.md"
-  ],
-  "homepage": "https://github.com/kzttools/dayjs-momentjs-format-string-library",
-  "keywords": [
-    "dayjs",
-    "momentjs",
-    "format",
-    "string",
-    "library",
-    "kazoottt"
-  ],
-  "license": "ISC",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "name": "@kzttools/dayjs-momentjs-format-string-library",
+  "author": "kazoottt",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/kazoottt",
+  "homepage": "https://github.com/kzttools/dayjs-momentjs-format-string-library#readme",
   "repository": {
-    "access": "public",
-    "url": "https://github.com/kzttools/dayjs-momentjs-format-string-library.git"
+    "type": "git",
+    "url": "git+https://github.com/kzttools/dayjs-momentjs-format-string-library.git"
   },
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "build": "tsup",
-    "publish": "npx np",
-    "test": "echo \"No test specified\""
+  "bugs": "https://github.com/kzttools/dayjs-momentjs-format-string-library/issues",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
   },
-  "version": "1.0.11"
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "lint": "eslint .",
+    "prepublishOnly": "nr build",
+    "release": "bumpp && npm publish",
+    "start": "esno src/index.ts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepare": "simple-git-hooks"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.2",
+    "@antfu/ni": "^0.21.12",
+    "@antfu/utils": "^0.7.7",
+    "@types/node": "^20.10.7",
+    "bumpp": "^9.2.1",
+    "eslint": "^8.56.0",
+    "esno": "^4.0.0",
+    "lint-staged": "^15.2.0",
+    "pnpm": "^8.14.0",
+    "rimraf": "^5.0.5",
+    "simple-git-hooks": "^2.9.0",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0",
+    "vite": "^5.0.11",
+    "vitest": "^1.1.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
 }
