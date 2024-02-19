@@ -1,7 +1,7 @@
 {
-  "name": "dayjs-momentjs-format-string-library",
+  "name": "@kzttools/dayjs-momentjs-format-string-library",
   "type": "module",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "packageManager": "pnpm@8.14.0",
   "description": "saving commonly used iso8601 format string and pass in the semantic key to get the corresponding format.",
   "author": "kazoottt",
