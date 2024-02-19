@@ -21,7 +21,7 @@
     "LICSENSE",
     "README.md"
   ],
-  "homepage": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library",
+  "homepage": "https://github.com/kzttools/dayjs-momentjs-format-string-library",
   "keywords": [
     "dayjs",
     "momentjs",
@@ -36,7 +36,7 @@
   "name": "@kzttools/dayjs-momentjs-format-string-library",
   "repository": {
     "access": "public",
-    "url": "https://github.com/KazooTTT/dayjs-momentjs-format-string-library.git"
+    "url": "https://github.com/kzttools/dayjs-momentjs-format-string-library.git"
   },
   "publishConfig": {
     "access": "public"
